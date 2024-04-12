@@ -101,35 +101,35 @@ function App() {
 
       {/* Feature Flag IMplementation */}
       {/* 
+      <FeatureFlagGlobalState>
+      <FeatureFlags />
+      </FeatureFlagGlobalState> 
     */}
-    <FeatureFlagGlobalState>
-    <FeatureFlags />
-    </FeatureFlagGlobalState> 
 
       {/* useFetch - Custom Hook Test*/}
       {/* 
+      <UseFetchHookTest/>
     */}
-    <UseFetchHookTest/>
 
       {/* Use Onclick Outside Hook Test */}
       {/* 
+      <UseOnclickOutsideTest/>
     */}
-    <UseOnclickOutsideTest/>
 
       {/* Use Window Resize Hook Test */}
       {/* 
+      <UseWindowResizeTest/>
     */}
-    <UseWindowResizeTest/>
 
       {/* Scroll to Top and Bottom */}
       {/*
+      <ScrollToTopAndBottom />
     */}
-    <ScrollToTopAndBottom />
 
       {/* Scroll to a Particular Section */}
       {/*
-       */}
       <ScrollToSection />
+       */}
     </div>
   );
 }
